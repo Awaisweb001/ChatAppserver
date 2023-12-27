@@ -1,0 +1,50 @@
+<html>
+      <head>
+        <style>
+          body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+          }
+          .container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border:"1px solid red"
+          }
+          h1 {
+            color: #333;
+            text-align: center;
+          }
+          p {
+            color: #666;
+            text-align: center;
+          }
+          .otp {
+            font-size: 28px;
+            font-weight: bold;
+            color: #ff5722;
+            display: block;
+            margin-top: 20px;
+            text-align: center;
+          }
+          .logo {
+            width: 100px;
+            margin: 0 auto;
+            display: block;
+          }
+        </style>
+      </head>
+      <body>
+        <div class="container">
+          <img src="https://www.caspianservices.net/wp-content/uploads/2013/08/partner-livechat.jpg" alt="Live Chat App Logo" class="logo">
+          <h1>Welcome to Live Chat App</h1>
+          <p>Your OTP for registration is: <span class="otp">{{otp}}</span></p>
+          <p>Thank you for joining us!</p>
+        </div>
+      </body>
+    </html>
